@@ -75,3 +75,15 @@ h2{font-size:38px;
 padding-bottom:20px;}
 .sub-choice > i{font-size:16px;}
 .sub-choice{padding-bottom:70px;}
+
+.sub-row{display:flex;
+flex-wrap:wrap;
+gap:50px;}
+
+.sub-col{flex-basis:(100 / 3 - 100px /3) ;
+min-height:100px;
+border:dashed;}
+
+.sub-row > .sub-col{flex-basis: (100 / 3 - 100px /3);
+min-width:30%}
+.sub-row> .low{flex-basis:99%;}
