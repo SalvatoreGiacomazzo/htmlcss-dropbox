@@ -85,8 +85,45 @@ flex-wrap: wrap;
 .sub-col{flex-basis: (100% / 3 - 100px /3);
 min-height: 100px;
 border:dashed;
-width:30%;}
+width:30%;
+padding: 10px 50px;
+}
 
 .col-extend{flex-grow: 1;
 width:100%;}
+
+/*Partner*/ 
+
+.partner-section{margin:150px 200px;
+display:flex;
+flex-direction:row;
+}
+
+.partner-container{display: flex;
+flex-direction: row;
+min-height:600px;
+min-width:100%;
+}
+
+.partner-img{max-height:100%;
+min-width:60%;
+
+}
+.partner-mng{display: flex;
+flex-direction: column;
+justify-content: center;
+height:100%;
+padding: 50px 50px;}
+
+.partner-text h3{font-size: 38px;}
+.partner-text p{font-size:large;}
+#partner-btn{background-color: white;
+color: #000;
+padding: 5px 10 px;
+height:40px;
+width:120px;}
+
+
+
+
 
