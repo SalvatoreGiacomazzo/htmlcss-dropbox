@@ -123,7 +123,20 @@ padding: 5px 10 px;
 height:40px;
 width:120px;}
 
+/*Operation*/ 
+.operation{margin: 150px 200px;
+}
 
+.operation-row{display: flex;
+flex-direction:row;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.operation-col{flex-basis: calc(100% /3 - 80px /3);
+min-height:100px;}
+.operation-mng h4{font-size: large;
+margin-bottom:20px;}
 
 
 
