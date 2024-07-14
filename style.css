@@ -138,5 +138,37 @@ min-height:100px;}
 .operation-mng h4{font-size: large;
 margin-bottom:20px;}
 
+/*Business*/ 
 
+.business-head{margin: 150px 200px;}
 
+.business-team{height:800px;
+width:100%;
+border: dashed;
+display: flex;
+}
+
+/*Bring Dropbox business*/ 
+.bring-db{background-color: #B4D0E7;
+height:400px;
+display: flex;
+align-items: center;
+}
+.bring-container{margin: 0 200px;
+height:100%;
+width:auto;
+display: flex;
+align-items: center;
+}
+.bring-text-box{width:60%;
+}
+.bring-btn-box{width:40%;
+}
+#bring-btn{background-color: white;
+    color: #000;
+    padding: 10px 40px;
+margin-left:150px;
+border:none;}
+
+.bring-text-box h2{color:#61082b}
+    
