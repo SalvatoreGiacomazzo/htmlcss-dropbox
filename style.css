@@ -185,6 +185,9 @@ width:50%;}
 .darkblue{background-color: #0D2481;}
 .yellow{background-color: #FFD830;}
 
+.single-square:hover{border:10px solid;
+color: rgba(255, 255, 255, 0.5);}
+
 
 /*Bring Dropbox business*/ 
 .bring-db{background-color: #B4D0E7;
